@@ -1,0 +1,10 @@
+---
+match_one:
+  home_team: norwitch
+  guest_team: brighton
+  match_date: 2019-09-18
+
+match_two:
+  home_team: brighton
+  guest_team: norwitch
+  match_date: 2019-09-19

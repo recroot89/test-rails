@@ -1,7 +1,6 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+---
+norwitch:
+  name: Norwitch
 
-one:
-  name: MyString
-
-two:
-  name: MyString
+brighton:
+  name: Brighton

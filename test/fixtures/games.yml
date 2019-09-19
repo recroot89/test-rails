@@ -1,0 +1,40 @@
+---
+first_game_norwitch_one:
+  match: match_one
+  player: norwitch_one
+
+first_game_norwitch_two:
+  match: match_one
+  player: norwitch_two
+
+first_game_norwitch_three:
+  match: match_one
+  player: norwitch_three
+
+first_game_norwitch_four:
+  match: match_one
+  player: norwitch_four
+
+first_game_norwitch_five:
+  match: match_one
+  player: norwitch_five
+
+first_game_brighton_one:
+  match: match_one
+  player: brighton_one
+
+first_game_brighton_two:
+  match: match_one
+  player: brighton_two
+
+first_game_brighton_three:
+  match: match_one
+  player: brighton_three
+
+first_game_brighton_four:
+  match: match_one
+  player: brighton_four
+
+first_game_brighton_five:
+  match: match_one
+  player: brighton_five

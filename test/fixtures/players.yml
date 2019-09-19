@@ -1,11 +1,50 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+---
+norwitch_one:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: norwitch
 
-one:
-  first_name: MyString
-  last_name: MyString
-  team: one
+norwitch_two:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: norwitch
 
-two:
-  first_name: MyString
-  last_name: MyString
-  team: two
+norwitch_three:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: norwitch
+
+norwitch_four:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: norwitch
+
+norwitch_five:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: norwitch
+
+brighton_one:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: brighton
+
+brighton_two:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: brighton
+
+brighton_three:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: brighton
+
+brighton_four:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: brighton
+
+brighton_five:
+  first_name: <%= Faker::Name.first_name %>
+  last_name: <%= Faker::Name.last_name %>
+  team: brighton
