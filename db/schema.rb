@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_18_190652) do
+ActiveRecord::Schema.define(version: 2019_09_19_112219) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -43,6 +43,22 @@ ActiveRecord::Schema.define(version: 2019_09_18_190652) do
     t.index ["team_id"], name: "index_players_on_team_id"
   end
 
+  create_table "stats", force: :cascade do |t|
+    t.integer "goals"
+    t.integer "assists"
+    t.integer "passes"
+    t.integer "pass_accuracy"
+    t.integer "distance"
+    t.integer "fouls"
+    t.integer "yellow_cards"
+    t.bigint "player_id", null: false
+    t.bigint "game_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["game_id"], name: "index_stats_on_game_id"
+    t.index ["player_id"], name: "index_stats_on_player_id"
+  end
+
   create_table "teams", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
@@ -54,4 +70,6 @@ ActiveRecord::Schema.define(version: 2019_09_18_190652) do
   add_foreign_key "matches", "teams", column: "guest_team_id"
   add_foreign_key "matches", "teams", column: "home_team_id"
   add_foreign_key "players", "teams"
+  add_foreign_key "stats", "games"
+  add_foreign_key "stats", "players"
 end

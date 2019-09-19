@@ -1,0 +1,110 @@
+---
+game_one_norwitch_one:
+  goals: 0
+  assists: 1
+  passes: 36
+  pass_accuracy: 85
+  distance: 9980
+  fouls: 2
+  yellow_cards: 0
+  player: norwitch_one
+  game: first_game_norwitch_one
+
+game_one_norwitch_two:
+  goals: 2
+  assists: 0
+  passes: 101
+  pass_accuracy: 77
+  distance: 10051
+  fouls: 4
+  yellow_cards: 1
+  player: norwitch_two
+  game: first_game_norwitch_two
+
+game_one_norwitch_three:
+  goals: 0
+  assists: 0
+  passes: 51
+  pass_accuracy: 82
+  distance: 8760
+  fouls: 3
+  yellow_cards: 1
+  player: norwitch_three
+  game: first_game_norwitch_three
+
+game_one_norwitch_four:
+  goals: 0
+  assists: 1
+  passes: 42
+  pass_accuracy: 87
+  distance: 10112
+  fouls: 2
+  yellow_cards: 0
+  player: norwitch_four
+  game: first_game_norwitch_four
+
+game_one_norwitch_five:
+  goals: 0
+  assists: 0
+  passes: 47
+  pass_accuracy: 91
+  distance: 7140
+  fouls: 0
+  yellow_cards: 0
+  player: norwitch_five
+  game: first_game_norwitch_five
+
+game_one_brighton_one:
+  goals: 1
+  assists: 0
+  passes: 56
+  pass_accuracy: 67
+  distance: 7789
+  fouls: 1
+  yellow_cards: 0
+  player: brighton_one
+  game: first_game_brighton_one
+
+game_one_brighton_two:
+  goals: 0
+  assists: 1
+  passes: 88
+  pass_accuracy: 74
+  distance: 10532
+  fouls: 3
+  yellow_cards: 1
+  player: brighton_two
+  game: first_game_brighton_two
+
+game_one_brighton_three:
+  goals: 0
+  assists: 0
+  passes: 48
+  pass_accuracy: 87
+  distance: 9740
+  fouls: 1
+  yellow_cards: 0
+  player: brighton_three
+  game: first_game_brighton_three
+
+game_one_brighton_four:
+  goals: 0
+  assists: 0
+  passes: 39
+  pass_accuracy: 79
+  distance: 9112
+  fouls: 5
+  yellow_cards: 1
+  player: brighton_four
+  game: first_game_brighton_four
+
+game_one_brighton_five:
+  goals: 0
+  assists: 0
+  passes: 32
+  pass_accuracy: 69
+  distance: 10023
+  fouls: 5
+  yellow_cards: 2
+  player: brighton_five
+  game: first_game_brighton_five
