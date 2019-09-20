@@ -2,9 +2,24 @@
 match_one:
   home_team: norwitch
   guest_team: brighton
-  match_date: 2019-09-18
+  match_date: 2019-08-18
 
 match_two:
   home_team: brighton
   guest_team: norwitch
-  match_date: 2019-09-19
+  match_date: 2019-08-25
+
+match_three:
+  home_team: norwitch
+  guest_team: burnley
+  match_date: 2019-09-02
+
+match_four:
+  home_team: norwitch
+  guest_team: cardiff
+  match_date: 2019-09-09
+
+match_five:
+  home_team: norwitch
+  guest_team: watford
+  match_date: 2019-09-16

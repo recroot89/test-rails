@@ -38,3 +38,162 @@ first_game_brighton_four:
 first_game_brighton_five:
   match: match_one
   player: brighton_five
+
+second_game_norwitch_one:
+  match: match_two
+  player: norwitch_one
+
+second_game_norwitch_two:
+  match: match_two
+  player: norwitch_two
+
+second_game_norwitch_three:
+  match: match_two
+  player: norwitch_three
+
+second_game_norwitch_four:
+  match: match_two
+  player: norwitch_four
+
+second_game_norwitch_five:
+  match: match_two
+  player: norwitch_five
+
+second_game_brighton_one:
+  match: match_two
+  player: brighton_one
+
+second_game_brighton_two:
+  match: match_two
+  player: brighton_two
+
+second_game_brighton_three:
+  match: match_two
+  player: brighton_three
+
+second_game_brighton_four:
+  match: match_two
+  player: brighton_four
+
+second_game_brighton_five:
+  match: match_two
+  player: brighton_five
+third_game_norwitch_one:
+  match: match_three
+  player: norwitch_one
+
+third_game_norwitch_two:
+  match: match_three
+  player: norwitch_two
+
+third_game_norwitch_three:
+  match: match_three
+  player: norwitch_three
+
+third_game_norwitch_four:
+  match: match_three
+  player: norwitch_four
+
+third_game_norwitch_five:
+  match: match_three
+  player: norwitch_five
+
+third_game_burnley_one:
+  match: match_three
+  player: burnley_one
+
+third_game_burnley_two:
+  match: match_three
+  player: burnley_two
+
+third_game_burnley_three:
+  match: match_three
+  player: burnley_three
+
+third_game_burnley_four:
+  match: match_three
+  player: burnley_four
+
+third_game_burnley_five:
+  match: match_three
+  player: burnley_five
+
+fourth_game_norwitch_one:
+  match: match_four
+  player: norwitch_one
+
+fourth_game_norwitch_two:
+  match: match_four
+  player: norwitch_two
+
+fourth_game_norwitch_three:
+  match: match_four
+  player: norwitch_three
+
+fourth_game_norwitch_four:
+  match: match_four
+  player: norwitch_four
+
+fourth_game_norwitch_five:
+  match: match_four
+  player: norwitch_five
+
+fourth_game_cardiff_one:
+  match: match_four
+  player: cardiff_one
+
+fourth_game_cardiff_two:
+  match: match_four
+  player: cardiff_two
+
+fourth_game_cardiff_three:
+  match: match_four
+  player: cardiff_three
+
+fourth_game_cardiff_four:
+  match: match_four
+  player: cardiff_four
+
+fourth_game_cardiff_five:
+  match: match_four
+  player: cardiff_five
+
+fifth_game_norwitch_one:
+  match: match_five
+  player: norwitch_one
+
+fifth_game_norwitch_two:
+  match: match_five
+  player: norwitch_two
+
+fifth_game_norwitch_three:
+  match: match_five
+  player: norwitch_three
+
+fifth_game_norwitch_four:
+  match: match_five
+  player: norwitch_four
+
+fifth_game_norwitch_five:
+  match: match_five
+  player: norwitch_five
+
+fifth_game_watford_one:
+  match: match_five
+  player: watford_one
+
+fifth_game_watford_two:
+  match: match_five
+  player: watford_two
+
+fifth_game_watford_three:
+  match: match_five
+  player: watford_three
+
+fifth_game_watford_four:
+  match: match_five
+  player: watford_four
+
+fifth_game_watford_five:
+  match: match_five
+  player: watford_five
