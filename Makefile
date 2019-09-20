@@ -1,5 +1,5 @@
 db-recreate:
-	bin/rails db:drop db:create db:migrate db:seed
+	bin/rails db:drop db:create db:migrate db:fixtured:load
 
 server:
 	bin/rails s

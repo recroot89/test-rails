@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 2019_09_19_112219) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["name"], name: "index_teams_on_name", unique: true
   end
 
   add_foreign_key "games", "matches"
