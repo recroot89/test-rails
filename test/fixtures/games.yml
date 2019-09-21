@@ -1,199 +1,250 @@
 ---
 first_game_norwitch_one:
+  game_date: 2019-08-18
   match: match_one
   player: norwitch_one
 
 first_game_norwitch_two:
+  game_date: 2019-08-18
   match: match_one
   player: norwitch_two
 
 first_game_norwitch_three:
+  game_date: 2019-08-18
   match: match_one
   player: norwitch_three
 
 first_game_norwitch_four:
+  game_date: 2019-08-18
   match: match_one
   player: norwitch_four
 
 first_game_norwitch_five:
+  game_date: 2019-08-18
   match: match_one
   player: norwitch_five
 
 first_game_brighton_one:
+  game_date: 2019-08-18
   match: match_one
   player: brighton_one
 
 first_game_brighton_two:
+  game_date: 2019-08-18
   match: match_one
   player: brighton_two
 
 first_game_brighton_three:
+  game_date: 2019-08-18
   match: match_one
   player: brighton_three
 
 first_game_brighton_four:
+  game_date: 2019-08-18
   match: match_one
   player: brighton_four
 
 first_game_brighton_five:
+  game_date: 2019-08-18
   match: match_one
   player: brighton_five
 
 second_game_norwitch_one:
+  game_date: 2019-08-25
   match: match_two
   player: norwitch_one
 
 second_game_norwitch_two:
+  game_date: 2019-08-25
   match: match_two
   player: norwitch_two
 
 second_game_norwitch_three:
+  game_date: 2019-08-25
   match: match_two
   player: norwitch_three
 
 second_game_norwitch_four:
+  game_date: 2019-08-25
   match: match_two
   player: norwitch_four
 
 second_game_norwitch_five:
+  game_date: 2019-08-25
   match: match_two
   player: norwitch_five
 
 second_game_brighton_one:
+  game_date: 2019-08-25
   match: match_two
   player: brighton_one
 
 second_game_brighton_two:
+  game_date: 2019-08-25
   match: match_two
   player: brighton_two
 
 second_game_brighton_three:
+  game_date: 2019-08-25
   match: match_two
   player: brighton_three
 
 second_game_brighton_four:
+  game_date: 2019-08-25
   match: match_two
   player: brighton_four
 
 second_game_brighton_five:
+  game_date: 2019-08-25
   match: match_two
   player: brighton_five
+
 third_game_norwitch_one:
+  game_date: 2019-09-02
   match: match_three
   player: norwitch_one
 
 third_game_norwitch_two:
+  game_date: 2019-09-02
   match: match_three
   player: norwitch_two
 
 third_game_norwitch_three:
+  game_date: 2019-09-02
   match: match_three
   player: norwitch_three
 
 third_game_norwitch_four:
+  game_date: 2019-09-02
   match: match_three
   player: norwitch_four
 
 third_game_norwitch_five:
+  game_date: 2019-09-02
   match: match_three
   player: norwitch_five
 
 third_game_burnley_one:
+  game_date: 2019-09-02
   match: match_three
   player: burnley_one
 
 third_game_burnley_two:
+  game_date: 2019-09-02
   match: match_three
   player: burnley_two
 
 third_game_burnley_three:
+  game_date: 2019-09-02
   match: match_three
   player: burnley_three
 
 third_game_burnley_four:
+  game_date: 2019-09-02
   match: match_three
   player: burnley_four
 
 third_game_burnley_five:
+  game_date: 2019-09-02
   match: match_three
   player: burnley_five
 
 fourth_game_norwitch_one:
+  game_date: 2019-09-09
   match: match_four
   player: norwitch_one
 
 fourth_game_norwitch_two:
+  game_date: 2019-09-09
   match: match_four
   player: norwitch_two
 
 fourth_game_norwitch_three:
+  game_date: 2019-09-09
   match: match_four
   player: norwitch_three
 
 fourth_game_norwitch_four:
+  game_date: 2019-09-09
   match: match_four
   player: norwitch_four
 
 fourth_game_norwitch_five:
+  game_date: 2019-09-09
   match: match_four
   player: norwitch_five
 
 fourth_game_cardiff_one:
+  game_date: 2019-09-09
   match: match_four
   player: cardiff_one
 
 fourth_game_cardiff_two:
+  game_date: 2019-09-09
   match: match_four
   player: cardiff_two
 
 fourth_game_cardiff_three:
+  game_date: 2019-09-09
   match: match_four
   player: cardiff_three
 
 fourth_game_cardiff_four:
+  game_date: 2019-09-09
   match: match_four
   player: cardiff_four
 
 fourth_game_cardiff_five:
+  game_date: 2019-09-09
   match: match_four
   player: cardiff_five
 
 fifth_game_norwitch_one:
+  game_date: 2019-09-16
   match: match_five
   player: norwitch_one
 
 fifth_game_norwitch_two:
+  game_date: 2019-09-16
   match: match_five
   player: norwitch_two
 
 fifth_game_norwitch_three:
+  game_date: 2019-09-16
   match: match_five
   player: norwitch_three
 
 fifth_game_norwitch_four:
+  game_date: 2019-09-16
   match: match_five
   player: norwitch_four
 
 fifth_game_norwitch_five:
+  game_date: 2019-09-16
   match: match_five
   player: norwitch_five
 
 fifth_game_watford_one:
+  game_date: 2019-09-16
   match: match_five
   player: watford_one
 
 fifth_game_watford_two:
+  game_date: 2019-09-16
   match: match_five
   player: watford_two
 
 fifth_game_watford_three:
+  game_date: 2019-09-16
   match: match_five
   player: watford_three
 
 fifth_game_watford_four:
+  game_date: 2019-09-16
   match: match_five
   player: watford_four
 
 fifth_game_watford_five:
+  game_date: 2019-09-16
   match: match_five
   player: watford_five
