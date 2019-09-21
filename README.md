@@ -5,7 +5,7 @@
 - [Show TOP-5 challenge leaders from one team](#challenge_team_leaders)
 - [Show TOP-5 challenge leaders from all teams](#challenge_all_teams_leaders)
 
-###Stack used
+##Stack used
 
 - <b>Framework</b>: Rails 6
 - <b>Language</b>: Ruby 2.6.4
@@ -21,9 +21,9 @@
 
 `make app-install`
 
-4. Next time use `make run` to run the app
+3. Next time use `make run` to run the app
 
-5. Reset the database to defaults: `make db-reset`
+4. Reset the database to defaults: `make db-reset`
 
 ## Documentation
 
@@ -51,16 +51,19 @@ The method checks whether the player completed the challenge in concrete match. 
 
 Method definition:
 `challenge_in_match_completed?(player, match, challenge_type)`
+
 where the first argument is Player object and second is Match object.
 You can select select challenge_type from above.
 
 Examples:
 
 `PlayerStatistics.challenge_in_match_completed?(player, match, :distance)`
+
 result:
 `true`
 
 `PlayerStatistics.challenge_in_match_completed?(player, match, :pass_accuracy)`
+
 result:
 `true`
 
@@ -72,16 +75,19 @@ This method checks whether the player completed the challenge in last matches at
 
 Method definition:
 `challenge_in_last_matches_completed?(player, challenge_type, games_count = 3)`
+
 where the first argument is Player object and second is challenge_type.
 You can define how many games need to be checked (3 by default).
 
 Examples:
 
 `PlayerStatistics.challenge_in_last_matches_completed?(player, :pass_accuracy)`
+
 result:
 `false`
 
 `PlayerStatistics.challenge_in_last_matches_completed?(player, :pass_accuracy, 5)`
+
 result:
 `true`
 
@@ -93,11 +99,13 @@ This method shows TOP-5 players from one team completed the challenge. For examp
 
 Method definition:
 `get_challenge_leaders_from_team(team, challenge_type)`
+
 where the first argument is Team object and second is challenge_type.
 
 Examples:
 
 `PlayerStatistics.get_challenge_leaders_from_team(team, :pass_accuracy)`
+
 result (made with `awesome_print`):
 
 ```
@@ -136,6 +144,7 @@ result (made with `awesome_print`):
 ```
 
 `PlayerStatistics.get_challenge_leaders_from_team(team, :distance)`
+
 result (made with `awesome_print`):
 
 ```
@@ -181,11 +190,13 @@ This method shows TOP-5 players from all teams completed the challenge. For exam
 
 Method definition:
 `get_challenge_leaders_from_all_teams(challenge_type)`
+
 where the only argument is challenge_type.
 
 Examples:
 
 `PlayerStatistics.get_challenge_leaders_from_all_teams(:pass_accuracy)`
+
 result (made with `awesome_print`):
 
 ```
@@ -229,6 +240,7 @@ result (made with `awesome_print`):
 ```
 
 `PlayerStatistics.get_challenge_leaders_from_all_teams(:distance)`
+
 result (made with `awesome_print`):
 
 ```
