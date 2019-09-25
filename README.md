@@ -2,8 +2,8 @@
 
 - [Completed challenge in match check](#challenge_match_check)
 - [Completed challenge in last matches check](#challenge_last_matches_check)
-- [Show TOP-5 challenge leaders from one team](#challenge_team_leaders)
-- [Show TOP-5 challenge leaders from all teams](#challenge_all_teams_leaders)
+- [Show TOP-5 leaders from one team](#team_leaders)
+- [Show TOP-5 leaders from all teams](#all_teams_leaders)
 
 ##Stack used
 
@@ -91,20 +91,30 @@ result:
 result:
 `true`
 
-<a id="challenge_team_leaders"></a>
+<a id="team_leaders"></a>
 
-### Get challenge leaders from one team
+### Get statistics leaders from one team
 
-This method shows TOP-5 players from one team completed the challenge. For example use the objects defined above.
+This method shows TOP-5 players from one team by the specific player's statistics indicator in one match. For example use the objects defined above.
+
+Player's statistics indicators (have to be string or symbol):
+
+- **:distance** // covered distance
+- **:pass_accuracy** // player's passes accuracy
+- **:assists** //player's assists
+- **:goals** //player's goals
+- **:passes** //player's completed passes
+- **:fouls** //player's fouls
+- **:yellow_cards** //player's yellow cards
 
 Method definition:
-`get_challenge_leaders_from_team(team, challenge_type)`
+`get_stats_leaders_from_team(team, player_stats_type)`
 
-where the first argument is Team object and second is challenge_type.
+where the first argument is Team object and second is player_stats_type.
 
 Examples:
 
-`PlayerStatistics.get_challenge_leaders_from_team(team, :pass_accuracy)`
+`PlayerStatistics.get_stats_leaders_from_team(team, :pass_accuracy)`
 
 result (made with `awesome_print`):
 
@@ -143,7 +153,7 @@ result (made with `awesome_print`):
 ]
 ```
 
-`PlayerStatistics.get_challenge_leaders_from_team(team, :distance)`
+`PlayerStatistics.get_stats_leaders_from_team(team, :distance)`
 
 result (made with `awesome_print`):
 
@@ -182,20 +192,20 @@ result (made with `awesome_print`):
 ]
 ```
 
-<a id="challenge_all_teams_leaders"></a>
+<a id="all_teams_leaders"></a>
 
-### Get challenge leaders from all teams
+### Get statistics leaders from all teams
 
-This method shows TOP-5 players from all teams completed the challenge. For example use the objects defined above.
+This method shows TOP-5 players from all teams by the specific player's statistics indicator in one match.
 
 Method definition:
-`get_challenge_leaders_from_all_teams(challenge_type)`
+`get_stats_leaders_from_all_teams(player_stats_type)`
 
-where the only argument is challenge_type.
+where the only argument is player_stats_type.
 
 Examples:
 
-`PlayerStatistics.get_challenge_leaders_from_all_teams(:pass_accuracy)`
+`PlayerStatistics.get_stats_leaders_from_all_teams(:pass_accuracy)`
 
 result (made with `awesome_print`):
 
@@ -239,7 +249,7 @@ result (made with `awesome_print`):
 ]
 ```
 
-`PlayerStatistics.get_challenge_leaders_from_all_teams(:distance)`
+`PlayerStatistics.get_stats_leaders_from_all_teams(:distance)`
 
 result (made with `awesome_print`):
 
