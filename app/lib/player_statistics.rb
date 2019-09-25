@@ -16,39 +16,39 @@ module PlayerStatistics
     false
   end
 
-  def get_challenge_leaders_from_team(team, challenge_type)
+  def get_stats_leaders_from_team(team, player_stats_type)
     Stat.includes(:player, :game)
         .select { |s| s.player.team_id == team.id }
-        .sort_by(&:"#{challenge_type}")
+        .sort_by(&:"#{player_stats_type}")
         .reverse
+        .first(5)
         .map do |s|
           [
-            "#{challenge_type.capitalize}: #{s.send(challenge_type)}",
+            "#{player_stats_type.capitalize}: #{s.send(player_stats_type)}",
             "Name: #{s.player.first_name} #{s.player.last_name}",
             "Match ID: #{s.game.match_id}",
             "Match date: #{s.game.game_date}"
           ]
         end
-        .first(5)
   end
 
-  def get_challenge_leaders_from_all_teams(challenge_type)
+  def get_stats_leaders_from_all_teams(player_stats_type)
     Stat.includes(player: [:team]).includes(:game)
-        .sort_by(&:"#{challenge_type}")
+        .sort_by(&:"#{player_stats_type}")
         .reverse
+        .first(5)
         .map do |s|
           [
             "Team: #{s.player.team.name}",
-            "#{challenge_type.capitalize}: #{s.send(challenge_type)}",
+            "#{player_stats_type.capitalize}: #{s.send(player_stats_type)}",
             "Name: #{s.player.first_name} #{s.player.last_name}",
             "Match ID: #{s.game.match_id}",
             "Match date: #{s.game.game_date}"
           ]
         end
-        .first(5)
   end
 
-  # private
+  private
 
   def get_stats_for_the_match(player, match)
     current_game = Game.find_by(match_id: match, player_id: player)
@@ -56,7 +56,7 @@ module PlayerStatistics
   end
 
   def get_last_games(player, games_count = 3)
-    player.games.order(game_date: :desc).limit(games_count).reverse
+    player.games.order(game_date: :desc).limit(games_count).order(game_date: :asc)
   end
 
   def get_stats_for_last_games(player, games_count)
