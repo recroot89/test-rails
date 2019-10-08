@@ -7,7 +7,6 @@ game_one_norwitch_one:
   distance: 9980
   fouls: 2
   yellow_cards: 0
-  player: norwitch_one
   game: first_game_norwitch_one
 
 game_one_norwitch_two:
@@ -18,7 +17,6 @@ game_one_norwitch_two:
   distance: 10051
   fouls: 4
   yellow_cards: 1
-  player: norwitch_two
   game: first_game_norwitch_two
 
 game_one_norwitch_three:
@@ -29,7 +27,6 @@ game_one_norwitch_three:
   distance: 8760
   fouls: 3
   yellow_cards: 1
-  player: norwitch_three
   game: first_game_norwitch_three
 
 game_one_norwitch_four:
@@ -40,7 +37,6 @@ game_one_norwitch_four:
   distance: 10112
   fouls: 2
   yellow_cards: 0
-  player: norwitch_four
   game: first_game_norwitch_four
 
 game_one_norwitch_five:
@@ -51,7 +47,6 @@ game_one_norwitch_five:
   distance: 7140
   fouls: 0
   yellow_cards: 0
-  player: norwitch_five
   game: first_game_norwitch_five
 
 game_one_brighton_one:
@@ -62,7 +57,6 @@ game_one_brighton_one:
   distance: 7789
   fouls: 1
   yellow_cards: 0
-  player: brighton_one
   game: first_game_brighton_one
 
 game_one_brighton_two:
@@ -73,7 +67,6 @@ game_one_brighton_two:
   distance: 10532
   fouls: 3
   yellow_cards: 1
-  player: brighton_two
   game: first_game_brighton_two
 
 game_one_brighton_three:
@@ -84,7 +77,6 @@ game_one_brighton_three:
   distance: 9740
   fouls: 1
   yellow_cards: 0
-  player: brighton_three
   game: first_game_brighton_three
 
 game_one_brighton_four:
@@ -95,7 +87,6 @@ game_one_brighton_four:
   distance: 9112
   fouls: 5
   yellow_cards: 1
-  player: brighton_four
   game: first_game_brighton_four
 
 game_one_brighton_five:
@@ -106,7 +97,6 @@ game_one_brighton_five:
   distance: 10023
   fouls: 5
   yellow_cards: 2
-  player: brighton_five
   game: first_game_brighton_five
 
 game_two_norwitch_one:
@@ -117,7 +107,6 @@ game_two_norwitch_one:
   distance: 9564
   fouls: 0
   yellow_cards: 0
-  player: norwitch_one
   game: second_game_norwitch_one
 
 game_two_norwitch_two:
@@ -128,7 +117,6 @@ game_two_norwitch_two:
   distance: 9887
   fouls: 1
   yellow_cards: 0
-  player: norwitch_two
   game: second_game_norwitch_two
 
 game_two_norwitch_three:
@@ -139,7 +127,6 @@ game_two_norwitch_three:
   distance: 7998
   fouls: 2
   yellow_cards: 1
-  player: norwitch_three
   game: second_game_norwitch_three
 
 game_two_norwitch_four:
@@ -150,7 +137,6 @@ game_two_norwitch_four:
   distance: 11102
   fouls: 0
   yellow_cards: 0
-  player: norwitch_four
   game: second_game_norwitch_four
 
 game_two_norwitch_five:
@@ -161,7 +147,6 @@ game_two_norwitch_five:
   distance: 8510
   fouls: 0
   yellow_cards: 0
-  player: norwitch_five
   game: second_game_norwitch_five
 
 game_two_brighton_one:
@@ -172,7 +157,6 @@ game_two_brighton_one:
   distance: 8764
   fouls: 0
   yellow_cards: 0
-  player: brighton_one
   game: second_game_brighton_one
 
 game_two_brighton_two:
@@ -183,7 +167,6 @@ game_two_brighton_two:
   distance: 7633
   fouls: 1
   yellow_cards: 1
-  player: brighton_two
   game: second_game_brighton_two
 
 game_two_brighton_three:
@@ -194,7 +177,6 @@ game_two_brighton_three:
   distance: 10089
   fouls: 1
   yellow_cards: 0
-  player: brighton_three
   game: second_game_brighton_three
 
 game_two_brighton_four:
@@ -205,7 +187,6 @@ game_two_brighton_four:
   distance: 7112
   fouls: 1
   yellow_cards: 0
-  player: brighton_four
   game: second_game_brighton_four
 
 game_two_brighton_five:
@@ -216,7 +197,6 @@ game_two_brighton_five:
   distance: 11101
   fouls: 1
   yellow_cards: 0
-  player: brighton_five
   game: second_game_brighton_five
 
 game_three_norwitch_one:
@@ -227,7 +207,6 @@ game_three_norwitch_one:
   distance: 10354
   fouls: 1
   yellow_cards: 0
-  player: norwitch_one
   game: third_game_norwitch_one
 
 game_three_norwitch_two:
@@ -238,7 +217,6 @@ game_three_norwitch_two:
   distance: 10011
   fouls: 1
   yellow_cards: 0
-  player: norwitch_two
   game: third_game_norwitch_two
 
 game_three_norwitch_three:
@@ -249,7 +227,6 @@ game_three_norwitch_three:
   distance: 12000
   fouls: 4
   yellow_cards: 1
-  player: norwitch_three
   game: third_game_norwitch_three
 
 game_three_norwitch_four:
@@ -260,7 +237,6 @@ game_three_norwitch_four:
   distance: 6977
   fouls: 0
   yellow_cards: 0
-  player: norwitch_four
   game: third_game_norwitch_four
 
 game_three_norwitch_five:
@@ -271,7 +247,6 @@ game_three_norwitch_five:
   distance: 9012
   fouls: 2
   yellow_cards: 0
-  player: norwitch_five
   game: third_game_norwitch_five
 
 game_three_burnley_one:
@@ -282,7 +257,6 @@ game_three_burnley_one:
   distance: 11764
   fouls: 1
   yellow_cards: 0
-  player: burnley_one
   game: third_game_burnley_one
 
 game_three_burnley_two:
@@ -293,7 +267,6 @@ game_three_burnley_two:
   distance: 7654
   fouls: 1
   yellow_cards: 0
-  player: burnley_two
   game: third_game_burnley_two
 
 game_three_burnley_three:
@@ -304,7 +277,6 @@ game_three_burnley_three:
   distance: 8922
   fouls: 4
   yellow_cards: 1
-  player: burnley_three
   game: third_game_burnley_three
 
 game_three_burnley_four:
@@ -315,7 +287,6 @@ game_three_burnley_four:
   distance: 13112
   fouls: 4
   yellow_cards: 0
-  player: burnley_four
   game: third_game_burnley_four
 
 game_three_burnley_five:
@@ -326,7 +297,6 @@ game_three_burnley_five:
   distance: 9987
   fouls: 1
   yellow_cards: 0
-  player: burnley_five
   game: third_game_burnley_five
 
 game_four_norwitch_one:
@@ -337,7 +307,6 @@ game_four_norwitch_one:
   distance: 9354
   fouls: 3
   yellow_cards: 0
-  player: norwitch_one
   game: fourth_game_norwitch_one
 
 game_four_norwitch_two:
@@ -348,7 +317,6 @@ game_four_norwitch_two:
   distance: 9987
   fouls: 2
   yellow_cards: 0
-  player: norwitch_two
   game: fourth_game_norwitch_two
 
 game_four_norwitch_three:
@@ -359,7 +327,6 @@ game_four_norwitch_three:
   distance: 10100
   fouls: 2
   yellow_cards: 1
-  player: norwitch_three
   game: fourth_game_norwitch_three
 
 game_four_norwitch_four:
@@ -370,7 +337,6 @@ game_four_norwitch_four:
   distance: 6990
   fouls: 2
   yellow_cards: 1
-  player: norwitch_four
   game: fourth_game_norwitch_four
 
 game_four_norwitch_five:
@@ -381,7 +347,6 @@ game_four_norwitch_five:
   distance: 10452
   fouls: 2
   yellow_cards: 0
-  player: norwitch_five
   game: fourth_game_norwitch_five
 
 game_four_cardiff_one:
@@ -392,7 +357,6 @@ game_four_cardiff_one:
   distance: 8895
   fouls: 6
   yellow_cards: 2
-  player: cardiff_one
   game: fourth_game_cardiff_one
 
 game_four_cardiff_two:
@@ -403,7 +367,6 @@ game_four_cardiff_two:
   distance: 11223
   fouls: 1
   yellow_cards: 0
-  player: cardiff_two
   game: fourth_game_cardiff_two
 
 game_four_cardiff_three:
@@ -414,7 +377,6 @@ game_four_cardiff_three:
   distance: 6446
   fouls: 0
   yellow_cards: 0
-  player: cardiff_three
   game: fourth_game_cardiff_three
 
 game_four_cardiff_four:
@@ -425,7 +387,6 @@ game_four_cardiff_four:
   distance: 9887
   fouls: 2
   yellow_cards: 1
-  player: cardiff_four
   game: fourth_game_cardiff_four
 
 game_four_cardiff_five:
@@ -436,7 +397,6 @@ game_four_cardiff_five:
   distance: 12243
   fouls: 3
   yellow_cards: 1
-  player: cardiff_five
   game: fourth_game_cardiff_five
 
 game_five_norwitch_one:
@@ -447,7 +407,6 @@ game_five_norwitch_one:
   distance: 10781
   fouls: 4
   yellow_cards: 1
-  player: norwitch_one
   game: fifth_game_norwitch_one
 
 game_five_norwitch_two:
@@ -458,7 +417,6 @@ game_five_norwitch_two:
   distance: 7876
   fouls: 0
   yellow_cards: 0
-  player: norwitch_two
   game: fifth_game_norwitch_two
 
 game_five_norwitch_three:
@@ -469,7 +427,6 @@ game_five_norwitch_three:
   distance: 9765
   fouls: 2
   yellow_cards: 0
-  player: norwitch_three
   game: fifth_game_norwitch_three
 
 game_five_norwitch_four:
@@ -480,7 +437,6 @@ game_five_norwitch_four:
   distance: 11234
   fouls: 0
   yellow_cards: 0
-  player: norwitch_four
   game: fifth_game_norwitch_four
 
 game_five_norwitch_five:
@@ -491,7 +447,6 @@ game_five_norwitch_five:
   distance: 8472
   fouls: 1
   yellow_cards: 0
-  player: norwitch_five
   game: fifth_game_norwitch_five
 
 game_five_watford_one:
@@ -502,7 +457,6 @@ game_five_watford_one:
   distance: 10255
   fouls: 3
   yellow_cards: 1
-  player: watford_one
   game: fifth_game_watford_one
 
 game_five_watford_two:
@@ -513,7 +467,6 @@ game_five_watford_two:
   distance: 8095
   fouls: 1
   yellow_cards: 0
-  player: watford_two
   game: fifth_game_watford_two
 
 game_five_watford_three:
@@ -524,7 +477,6 @@ game_five_watford_three:
   distance: 8842
   fouls: 0
   yellow_cards: 0
-  player: watford_three
   game: fifth_game_watford_three
 
 game_five_watford_four:
@@ -535,7 +487,6 @@ game_five_watford_four:
   distance: 6421
   fouls: 2
   yellow_cards: 1
-  player: watford_four
   game: fifth_game_watford_four
 
 game_five_watford_five:
@@ -546,5 +497,4 @@ game_five_watford_five:
   distance: 11643
   fouls: 4
   yellow_cards: 1
-  player: watford_five
   game: fifth_game_watford_five

@@ -5,5 +5,4 @@ class Player < ApplicationRecord
 
   has_many :games, dependent: :destroy
   has_many :matches, through: :games
-  has_many :stats, dependent: :destroy
 end
