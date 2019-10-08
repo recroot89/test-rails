@@ -1,8 +1,7 @@
 app-install:
+	docker run -d -p 5432:5432 -e POSTGRES_USER=app --name db postgres:9.6
 	gem install bundler
 	bundle install
-	docker run -d -p 5432:5432 -e POSTGRES_USER=app --name db postgres:9.6
-	sleep 5
 	bin/rails db:create db:migrate db:fixtures:load
 	bin/rails c
 

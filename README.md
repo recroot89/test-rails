@@ -1,5 +1,7 @@
 # README
 
+[![Build Status](https://travis-ci.org/recroot89/test-rails.svg?branch=master)](https://travis-ci.org/recroot89/test-rails)
+
 - [Completed challenge in match check](#challenge_match_check)
 - [Completed challenge in last matches check](#challenge_last_matches_check)
 - [Show TOP-5 leaders from one team](#team_leaders)
@@ -17,7 +19,7 @@
 
 `cd test-rails`
 
-2. Install and run the app
+2. Install and run the app (Docker used)
 
 `make app-install`
 
