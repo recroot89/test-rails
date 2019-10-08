@@ -12,6 +12,10 @@ run:
 	docker start db
 	bin/rails c
 
+db-bash:
+	docker start db
+	docker exec -it db bash
+
 lint:
 	bundle exec rubocop
 
